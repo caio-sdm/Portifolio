@@ -38,6 +38,9 @@ header{
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1; /*como se fossem camadas de photoshop*/
 }
 
 #menu ul{
@@ -99,7 +102,7 @@ main{
   justify-content: center;
   align-items: center;
   font-size: 1.6em;
-  gap: 2em;
+  gap: .5em;
   margin-top: 15px;
 }
 
